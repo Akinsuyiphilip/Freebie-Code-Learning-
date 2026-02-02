@@ -44,7 +44,7 @@ export default function Navbar() {
             <nav className="w-full">
                 {/* mobile screen */}
 
-                <div className={`fixed top-0 left-0 right-0 z-60 flex justify-between max-w-7xl lg:items-start mx-auto px-4 py-4 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur-md shadow-sm" : "bg-transparent"}`}>
+                <div className={`fixed top-0 left-0 right-0 z-60 flex justify-between w-full 2xl:max-w-7xl lg:items-start 2xl:mx-auto px-4 py-4 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur-md shadow-sm" : "bg-transparent"}`}>
 
                     <div className="flex items-center md:gap-6 lg:gap-10 gap-3">
                         <img src={logo} alt="" className="w-6 h-6 md:h-10 md:w-10" />

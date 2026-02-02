@@ -15,8 +15,8 @@ export default function Hero() {
     return (
         <>
             <div className="flex flex-col lg:flex-row">
-                <div className="flex flex-col pt-20 pl-4 mt-7 mb-4 w-3/4 gap-8 lg:w-1/2 lg:mb-0 lg:mt-32 lg:mr-10">
-                    <h1 className="text-[clamp(3rem,3vw,10rem)] font-medium ">Improve your
+                <div className="flex flex-col pt-20 pl-4 mt-7 mb-4 w-3/4 gap-8 lg:w-1/2 lg:mb-0 lg:pt-5 lg:mt-24 lg:mr-10">
+                    <h1 className="text-[clamp(3rem,3vw,10rem)] font-medium leading-15">Improve your
                         skills by  <img src={codeIcon} alt="codeIcon" className="w-[0.5em] h-[0.5em] inline" /> study
                         with coding </h1>
 
@@ -48,7 +48,7 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-between gap-4 px-8 py-16 lg:py-20">
+            <div className="flex items-center justify-between gap-4 px-8 py-16 lg:py-20 bg-white">
                 <img src={edXicon} alt="edXicon" className="w-[6em] h-auto lg:w-[14em] inline-block" />
                 <img src={courseraicon} alt="courseraicon" className="w-[6em] h-auto lg:w-[14em] inline-block" />
                 <img src={udemyicon} alt="udemyicon" className="w-[6em] h-auto lg:w-[14em] inline-block" />
